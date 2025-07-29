@@ -1,5 +1,5 @@
 const express = require('express');
-const PORT = 9000;
+const PORT = 9009;
 const app = express()
 const ejs = require('ejs');
 require('dotenv').config();
@@ -29,10 +29,6 @@ connect.then(() => {
 }).catch((err) => {
     console.error('MongoDB connection error:', err);
 });
-
-app.listen(PORT, () => {
-    console.log('app is running on port something')
-})
 
 app.set('view engine', 'ejs')
 app.get('/', (request, response) => {
@@ -115,4 +111,9 @@ app.get('/index', (request, response) => {
 
 app.get('/ejs', (request, response) => {
     response.render('index')
+})
+
+
+app.listen(PORT, () => {
+    console.log('app is running on port something')
 })
