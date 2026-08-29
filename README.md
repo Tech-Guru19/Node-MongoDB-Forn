@@ -1,31 +1,33 @@
-# 🗄️ Node.js + MongoDB Registration App
+# Node.js and MongoDB Registration Application
 
-An **Express + EJS + MongoDB** web application with **bcrypt password hashing** — a study project demonstrating MVC-style Node.js development with database-backed user registration.
+## Overview
 
-## ✨ Features
+An Express, EJS, and MongoDB web application demonstrating MVC-style Node.js development with database-backed user registration and secure password handling.
 
-- 🔐 **Password hashing** with bcrypt
-- 🗄️ **MongoDB integration** with Mongoose
-- 🖥️ **Server-rendered views** with EJS
-- 🧱 **MVC structure** — controllers, models, routes, views
+## Key Features
 
-## 🧱 Tech Stack
+- **Password security:** Bcrypt password hashing
+- **Database integration:** MongoDB with Mongoose
+- **Server-side rendering:** EJS templating
+- **MVC structure:** Controllers, models, routes, and views
 
-- Node.js + Express 5
-- MongoDB + Mongoose
+## Technology Stack
+
+- Node.js with Express 5
+- MongoDB with Mongoose
 - EJS templating
-- bcrypt, dotenv
+- bcrypt and dotenv
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/Tech-Guru19/Node-MongoDB-Forn.git
 cd Node-MongoDB-Forn
 npm install
-# create .env with MONGODB_URI
-npm start   # runs on port 9009
+# Create a .env file with MONGODB_URI
+npm start   # Runs on port 9009
 ```
 
-## 👩‍💻 Author
+## Author
 
-**[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)**
+[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)
